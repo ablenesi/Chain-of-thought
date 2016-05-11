@@ -2,4 +2,15 @@ extends layout
 
 block content
   h1= title
-  p Welcome to #{title}
+  p.lead Welcome to #{title}!
+  h2#thought #{thought}
+  p Continue the story:
+  form
+    div.form-group.form-group-lg
+      input#input.form-control(placeholder="Your idea goes here ..." type="text" minlength=10)
+    button#sendTough.btn.btn-success.btn-block Send
+    br
+    button#viewStory.btn.btn-primary.btn-block View full story
+    br
+    p#story.lead
+
