@@ -6,7 +6,7 @@ var previous_thought = story;
 
 /* Home page server */
 router.get('/', function (req, res, next) {
-    res.render('index', {title: 'Chain of TETETETTETETETETETETETETE', thought: previous_thought + ' ...'});
+    res.render('index', {title: 'Chain of thought', thought: previous_thought + ' ...'});
 });
 
 router.get('/story', function (req, res, next) {
