@@ -1,0 +1,16 @@
+{
+  "name": "Chain-of-thought",
+  "description": "A simple game of thoughts",
+  "scripts": {
+  },
+  "env": {
+  },
+  "formation": {
+  },
+  "addons": [
+
+  ],
+  "buildpacks": [
+
+  ]
+}
